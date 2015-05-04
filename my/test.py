@@ -22,3 +22,6 @@ if filename and os.path.isfile(filename):
     open(filename, 'r').read()
 else:
     print "fail"
+
+import math
+math.log10(2)
