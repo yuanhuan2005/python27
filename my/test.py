@@ -24,4 +24,5 @@ else:
     print "fail"
 
 import math
-math.log10(2)
+print math.log10(2)
+print math.sin(10)
