@@ -14,7 +14,7 @@ else:
 
 import os
 print os.environ.data
-filename = os.environ.get('PUBLIC')
+print os.environ.get('PUBLIC')
 filename = "E:\\BaiduYunDownload\\rarreg.key"
 print filename
 if filename and os.path.isfile(filename):
@@ -26,3 +26,7 @@ else:
 import math
 print math.log10(2)
 print math.sin(10)
+
+import json
+
+print json.__version__
