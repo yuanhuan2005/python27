@@ -18,3 +18,8 @@ print "abc".startswith("a")
 
 print "jason" " " "fei"
 print "Jason".strip()
+
+word = "helloworld"
+print word[0:5] + " python"
+print word[-10]
+
