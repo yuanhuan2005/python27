@@ -15,3 +15,6 @@ Usage: setuid -u UID
 """
 
 print "abc".startswith("a")
+
+print "jason" " " "fei"
+print "Jason".strip()
