@@ -36,3 +36,44 @@ json_str = json.JSONEncoder().encode({"foo": ["bar", "baz"]})
 obj = json.JSONDecoder().decode(json_str)
 str = json.JSONEncoder().encode(obj)
 print str
+
+import site
+
+print site.getusersitepackages()
+
+print round(3 / 7.0, 4)
+print "doesn\'t"
+hello = "This is a test file\n" \
+        "and that is ok\n" \
+        "end"
+print hello
+hello = "This is a test file\n\
+    and that is ok\n\
+    end"
+print hello
+
+import this
+
+print this
+
+from time import sleep
+
+sleep(0.3)
+print "sleep done"
+
+import platform
+
+print platform.platform()
+
+import os.path
+
+print os.path
+print os.path.abspath(".")
+
+import subprocess
+
+print "\n"
+subprocess.call("ls -l")
+subprocess.call("uname -a")
+subprocess.call("netstat -an")
+
