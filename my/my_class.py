@@ -33,4 +33,3 @@ user = MyUser("102343", "Jason", 25)
 print user.get_username("10002341")
 print user.to_json_string()
 
-

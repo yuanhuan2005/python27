@@ -36,3 +36,9 @@ f = open(filename, "r")
 for line in f:
     print line
 f.close()
+
+page = open(filename, "r")
+unique_words = set(word for line in page for word in line.split())
+page.close()
+print unique_words
+
