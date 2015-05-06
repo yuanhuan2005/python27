@@ -23,3 +23,17 @@ word = "helloworld"
 print word[0:5] + " python"
 print word[-10]
 
+s = 'Hello, world.'
+print str(s)
+print repr(s)
+print str(1 / 9.0)
+print repr(1 / 9.0)
+
+hello = 'hello, world\n'
+print repr(hello)
+print str(hello)
+
+for x in range(1, 11):
+    print str(x).rjust(2), str(x * x).rjust(3), str(x * x * x).rjust(4)
+
+print '12'.zfill(5)

@@ -25,6 +25,7 @@ print b
 # remove some
 print "\nremove some:"
 a[3:4] = []
+del a[0]
 print a
 print b
 
@@ -40,3 +41,7 @@ a.append("new_append")
 print a
 print b
 
+from collections import deque
+
+queue = deque(["Eric", "John", "Michael"])
+print queue

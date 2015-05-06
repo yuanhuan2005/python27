@@ -37,5 +37,5 @@ def ask_ok(prompt, retries=4, complaint='Yes or no, please!'):
         print complaint
 
 
-ask_ok("Do you really want to quit? [yes/no]")
+# ask_ok("Do you really want to quit? [yes/no]")
 
