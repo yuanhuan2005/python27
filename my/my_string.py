@@ -37,3 +37,7 @@ for x in range(1, 11):
     print str(x).rjust(2), str(x * x).rjust(3), str(x * x * x).rjust(4)
 
 print '12'.zfill(5)
+
+print 'We are the {} who say "{}!"'.format('knights', 'Ni')
+print '{0} and {1}'.format('spam', 'eggs')
+print '{1} and {0}'.format('spam', 'eggs')
