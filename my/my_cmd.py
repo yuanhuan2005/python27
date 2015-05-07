@@ -1,10 +1,18 @@
 import os
 
-os.system("ls")
+cmd = "ls"
+os.system(cmd)
 
 import subprocess
 
-subprocess.call("ls")
+subprocess.call(cmd)
+
+import os
+
+r = os.popen(cmd)
+text = r.read()
+r.close()
+print text
 
 import sys
 
