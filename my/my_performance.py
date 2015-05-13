@@ -27,4 +27,3 @@ def fib_seq(n):
 print 'RAW'
 print '=' * 80
 profile.run('print fib(20); print')
-# profile.run('print fib_seq(20); print')
